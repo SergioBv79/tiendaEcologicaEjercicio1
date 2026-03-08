@@ -2,17 +2,16 @@
   "version": 2,
   "builds": [
     {
-      "src": "./tienda-eco/server.js",
+      "src": "server.js",
       "use": "@vercel/node"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "./tienda-eco/server.js"
+      "dest": "server.js"
     }
   ]
 }
-
 
     
